@@ -35,3 +35,4 @@ for j in range(len(doc)):
         cropped_img = img.crop((x0, y0, x1, y1))
         cropped_img.save(outdir + "/page_" + str(j) + "_image_" + str(i) + ".png")
     os.remove("temp.png")
+#가나다
